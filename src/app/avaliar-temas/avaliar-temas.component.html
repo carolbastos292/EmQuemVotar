@@ -3,8 +3,12 @@
 	<div class="row rowTemas">
 		<div *ngFor= "let tema of temas" class="col-xs-6 col-sm-4 col-md-4 col-lg-4 text-center">
 			<eqv-tema [tema]="tema"></eqv-tema>
-		</div>
-	</div>
+    </div>
+  </div>
+  <div *ngFor= "let theme of themes">
+      <a>{{theme.theme_name}}</a>
+    </div>
 </div>
+
 
 

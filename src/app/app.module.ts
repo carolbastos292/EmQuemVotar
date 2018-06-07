@@ -2,6 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { HttpModule } from '@angular/http';
 
+
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { RouterModule } from '@angular/router';
 import {ROUTES} from './app.routes'
@@ -14,6 +15,8 @@ import { AboutComponent } from './about/about.component';
 import { CandidatosRecomendadosComponent } from './candidatos-recomendados/candidatos-recomendados.component';
 import { TemaComponent } from './avaliar-temas/tema/tema.component';
 import { SubtemaComponent } from './avaliar-temas/tema/subtema/subtema.component';
+import { HttpClientModule } from '@angular/common/http';
+
 
 @NgModule({
   declarations: [
@@ -30,7 +33,8 @@ import { SubtemaComponent } from './avaliar-temas/tema/subtema/subtema.component
     BrowserModule,
     NgbModule.forRoot(),
     HttpModule,
-    RouterModule.forRoot(ROUTES)
+    RouterModule.forRoot(ROUTES),
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
