@@ -2,6 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { HttpModule } from '@angular/http';
 
+
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { RouterModule } from '@angular/router';
 import {ROUTES} from './app.routes'
@@ -14,9 +15,14 @@ import { AboutComponent } from './about/about.component';
 import { CandidatosRecomendadosComponent } from './candidatos-recomendados/candidatos-recomendados.component';
 import { TemaComponent } from './avaliar-temas/tema/tema.component';
 import { SubtemaComponent } from './avaliar-temas/tema/subtema/subtema.component';
+<<<<<<< HEAD
 import { TemaSubtemasComponent } from './tema-subtemas/tema-subtemas.component';
 import { CandidatoDetalhesComponent } from './candidato-detalhes/candidato-detalhes.component';
 import { ContatosComponent } from './contatos/contatos.component';
+=======
+import { HttpClientModule } from '@angular/common/http';
+
+>>>>>>> 98534d43b06b32d7965af3505f01d976ba4115bf
 
 @NgModule({
   declarations: [
@@ -36,7 +42,8 @@ import { ContatosComponent } from './contatos/contatos.component';
     BrowserModule,
     NgbModule.forRoot(),
     HttpModule,
-    RouterModule.forRoot(ROUTES)
+    RouterModule.forRoot(ROUTES),
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
