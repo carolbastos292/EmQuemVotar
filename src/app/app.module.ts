@@ -15,14 +15,14 @@ import { AboutComponent } from './about/about.component';
 import { CandidatosRecomendadosComponent } from './candidatos-recomendados/candidatos-recomendados.component';
 import { TemaComponent } from './avaliar-temas/tema/tema.component';
 import { SubtemaComponent } from './avaliar-temas/tema/subtema/subtema.component';
-<<<<<<< HEAD
+
 import { TemaSubtemasComponent } from './tema-subtemas/tema-subtemas.component';
 import { CandidatoDetalhesComponent } from './candidato-detalhes/candidato-detalhes.component';
 import { ContatosComponent } from './contatos/contatos.component';
-=======
+
 import { HttpClientModule } from '@angular/common/http';
 
->>>>>>> 98534d43b06b32d7965af3505f01d976ba4115bf
+
 
 @NgModule({
   declarations: [
