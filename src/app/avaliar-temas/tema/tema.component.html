@@ -1,4 +1,10 @@
-<a href="subtema/subtema.component.html"  >
-	<img [src]="tema.imagePath" class="temaImg img-responsive "  alt="Educação">
+<a [routerLink]="['/temas', tema.id]">
+	<img [src]="tema.imagePath" class="temaImg img-responsive">
 	<p align="center" class="nomeTema">{{tema.name}}</p>
+	<span class="fa fa-star checked"></span>
+	<span class="fa fa-star checked"></span>
+	<span class="fa fa-star checked"></span>
+	<span class="fa fa-star checked"></span>
+	<span class="fa fa-star checked"></span>
 </a>
+

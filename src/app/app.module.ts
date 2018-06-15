@@ -14,6 +14,9 @@ import { AboutComponent } from './about/about.component';
 import { CandidatosRecomendadosComponent } from './candidatos-recomendados/candidatos-recomendados.component';
 import { TemaComponent } from './avaliar-temas/tema/tema.component';
 import { SubtemaComponent } from './avaliar-temas/tema/subtema/subtema.component';
+import { TemaSubtemasComponent } from './tema-subtemas/tema-subtemas.component';
+import { CandidatoDetalhesComponent } from './candidato-detalhes/candidato-detalhes.component';
+import { ContatosComponent } from './contatos/contatos.component';
 
 @NgModule({
   declarations: [
@@ -25,6 +28,9 @@ import { SubtemaComponent } from './avaliar-temas/tema/subtema/subtema.component
     CandidatosRecomendadosComponent,
     TemaComponent,
     SubtemaComponent,
+    TemaSubtemasComponent,
+    CandidatoDetalhesComponent,
+    ContatosComponent,
   ],
   imports: [
     BrowserModule,

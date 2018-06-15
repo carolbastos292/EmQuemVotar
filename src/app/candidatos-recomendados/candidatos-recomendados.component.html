@@ -1,3 +1,65 @@
-<p>
-  candidatos-recomendados works!
-</p>
+<div class="container list-group">
+  <h3 class="mb-4 text-center subtitulo font-weight-light">Candidatos Recomendados</h3>
+  <nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="#">Cargos</a></li>
+    
+    <li class="breadcrumb-item active" aria-current="page">Presidente da República</li>
+    
+  </ol>
+</nav>
+  <a [routerLink]="['/candidato-detalhes']"  >
+    <div class="card mt-2 ">
+      <div class="card-body list-group-item list-group-item-action">
+        <div class="media">
+          <img class="foto-candidato mr-3" src="../assets/img/candidatos/lula.jpg" >
+          <div class="media-body">
+            
+              <li class="list-inline-item h3 card-title">Lula</li>
+              <li class="list-inline-item h3 card-subtitle font-weight-light"> | Partido dos Trabalhadores</li>
+            
+            <p class="card-text text-truncate" style="max-width: 800px;">Luiz Inácio Lula da Silva é um político, ex-sindicalista e ex-metalúrgico brasileiro, o 35.º presidente do Brasil entre 2003 e 2011. Membro fundador e presidente de honra do Partido dos Trabalhadores, elegeu-se presidente da República na eleição de 2002, sendo reeleito em 2006. Atualmente, encontra-se cumprindo pena em Curitiba após ser condenado por corrupção.</p>
+
+            <button type="button" class="btn btn-outline-success pb-1">Ver Mais</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </a>
+
+  <div class="card mt-2">
+    <div class="card-body list-group-item list-group-item-action">
+      <div class="media">
+        <img class="foto-candidato mr-3" src="../assets/img/candidatos/bolsonaro.jpg" >
+        <div class="media-body">
+         
+            <li class="list-inline-item h3 card-title">Bolsonaro</li>
+            <li class="list-inline-item h3 card-subtitle font-weight-light"> | Partido Progressista</li>
+         
+          <p class=" card-text text-truncate" style="max-width: 800px;">Jair Messias Bolsonaro cumpre atualmente o seu sétimo mandato na Câmara dos Deputados do Brasil, eleito pelo Partido Progressista (PP).[3] Nas eleições gerais de 2014, foi o deputado federal mais votado do estado do Rio de Janeiro com apoio de 6% do eleitorado fluminense (464 mil votos).[4] Em 2017, foi considerado pelo instituto FSB Pesquisa o parlamentar mais influente nas redes sociais.[5] Em janeiro de 2018, anunciou sua filiação ao Partido Social Liberal (PSL), o nono partido político de sua carreira, desde que foi eleito vereador em 1989</p>
+          <button type="button" class="btn btn-outline-success pb-1">Ver Mais</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="card mt-2">
+    <div class="card-body list-group-item list-group-item-action">
+      <div class="media">
+        <img class="foto-candidato mr-3" src="../assets/img/candidatos/temer.jpg" >
+        <div class="media-body">
+          
+            <li class="list-inline-item h3 card-title">Temer</li>
+            <li class="list-inline-item h3 card-subtitle font-weight-light"> | PMDB</li>
+          
+          <p class=" descricao card-text text-truncate" style="width: 800px;">Michel Miguel Elias Temer Lulia é um político, advogado e escritor brasileiro, atual presidente da República Federativa do Brasil, empossado após o impeachment da titular, Dilma Rousseff. Desde 1985, é o terceiro vice-presidente membro de seu partido, o Partido do Movimento Democrático Brasileiro (PMDB), que chegou à Presidência da República sem ser eleito diretamente para o cargo.[2] Anteriormente, exerceu também os cargos de presidente da Câmara dos Deputados, deputado federal, secretário da Segurança Pública e procurador-geral do estado de São Paulo.</p>
+          <button type="button" class="btn btn-outline-success pb-1">Ver Mais</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+</div>

@@ -1,9 +1,38 @@
 /* You can add global styles to this file, and also import other style files */
 @import 'https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css';
+
 body{
 	background: white;
+	overflow-x: hidden;
+
 }
+
+.top{
+	margin-top: 10%;
+}
+
 .titulo{
 	padding-top: 10%;
 }
+.subtitulo{
+	padding-top: 10%;
+}
+
+.rowTemas{
+	padding-top: 5%;
+	alignment-baseline: central;
+	padding-right: 30%;
+	padding-left: 30%;
+}
+
+/* Candidatos Recomendados*/
+
+.foto-candidato{
+	width: 20%;
+	height: auto;
+}
+.list-inline {
+	padding-bottom: 0px;
+}
+
 
