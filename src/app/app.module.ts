@@ -21,6 +21,7 @@ import { CandidatoDetalhesComponent } from './candidato-detalhes/candidato-detal
 import { ContatosComponent } from './contatos/contatos.component';
 
 import { HttpClientModule } from '@angular/common/http';
+import { FooterComponent } from './footer/footer.component';
 
 
 
@@ -37,6 +38,7 @@ import { HttpClientModule } from '@angular/common/http';
     TemaSubtemasComponent,
     CandidatoDetalhesComponent,
     ContatosComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,
