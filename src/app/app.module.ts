@@ -19,7 +19,7 @@ import { SubtemaComponent } from './avaliar-temas/tema/subtema/subtema.component
 import { TemaSubtemasComponent } from './tema-subtemas/tema-subtemas.component';
 import { CandidatoDetalhesComponent } from './candidato-detalhes/candidato-detalhes.component';
 import { ContatosComponent } from './contatos/contatos.component';
-
+import { RatingComponent } from './avaliar-temas/tema/rating/rating.component';
 import { HttpClientModule } from '@angular/common/http';
 
 
@@ -37,6 +37,7 @@ import { HttpClientModule } from '@angular/common/http';
     TemaSubtemasComponent,
     CandidatoDetalhesComponent,
     ContatosComponent,
+    RatingComponent
   ],
   imports: [
     BrowserModule,

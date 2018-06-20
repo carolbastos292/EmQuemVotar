@@ -1,13 +1,18 @@
 <div class="temasContent">
-	<h3 class=" text-muted text-center subtitulo font-weight-light">Selecione os temas que você mais tem interesse nas propostas de um candidato.</h3>
+	<h3 class=" text-muted text-center subtitulo font-weight-light">Avalie os temas que você mais tem interesse nas propostas de um candidato.</h3>
 	<div class="row rowTemas">
 		<div *ngFor= "let tema of temas" class="col-xs-6 col-sm-4 col-md-4 col-lg-4 text-center">
 			<eqv-tema [tema]="tema"></eqv-tema>
-    </div>
-  </div>
-  <div *ngFor= "let theme of themes">
+    	</div>
+  	</div>
+  	<!--
+  	<div *ngFor= "let theme of themes">
       <a>{{theme.theme_name}}</a>
-    </div>
+    </div> -->
+
+	<div class="text-center">
+    	<button type="button" class="btn btn-success ">Enviar</button>
+	</div>
 </div>
 
 
