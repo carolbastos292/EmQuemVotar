@@ -21,6 +21,7 @@ import { CandidatoDetalhesComponent } from './candidato-detalhes/candidato-detal
 import { ContatosComponent } from './contatos/contatos.component';
 import { RatingComponent } from './avaliar-temas/tema/rating/rating.component';
 import { HttpClientModule } from '@angular/common/http';
+import { FooterComponent } from './footer/footer.component';
 
 
 
@@ -37,7 +38,11 @@ import { HttpClientModule } from '@angular/common/http';
     TemaSubtemasComponent,
     CandidatoDetalhesComponent,
     ContatosComponent,
+<<<<<<< HEAD
     RatingComponent
+=======
+    FooterComponent,
+>>>>>>> 4c77ed4c06a6be4a5d0c6cde000aacf657798093
   ],
   imports: [
     BrowserModule,

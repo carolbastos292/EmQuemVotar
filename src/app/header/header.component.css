@@ -3,7 +3,8 @@
 	box-shadow: 0 2px 2px rgba(0,0,0,0.15);
 	/*height: 200px;*/
 	/*display: block;*/
-
+    position:relative;
+    z-index: 0;
 	box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
 }
  .nav-link.disabled{
@@ -19,3 +20,26 @@
  	color: white;
  	
  }
+
+
+/*.div {
+    position:relative;
+    height:135px;
+    z-index: 0;
+    background: #ff4081;
+    color: #fff;
+
+}*/
+img {
+    /*position:absolute;*/
+    /*top:0;*/
+    /*bottom:0;*/
+    margin:auto;
+    /*margin-top: 10px;*/
+}
+.image {
+	padding-top: 10px;
+	/*float: left;*/
+    min-height:50px;
+    margin: auto;
+}

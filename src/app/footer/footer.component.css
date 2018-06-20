@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*.div {
     height:130px;
     z-index: 0;
@@ -39,4 +40,47 @@ img {
 p.footer{
     padding: 15px;
     vertical-align: middle;
+=======
+/*.div {
+    height:130px;
+    z-index: 0;
+    background: #ff4081;
+    color: #fff;
+
+}
+img {
+    margin:auto;
+}
+.image {
+	padding-top: 10px;
+    min-height:50px;
+    margin: auto;
+}
+.b{
+	border: 2px solid black;
+}*/
+
+.footerbar {
+    height:120px;
+    z-index: 0;
+    background: #27ae60;
+    color: #fff;
+
+}
+img {
+    margin:auto;
+}
+.image {
+    padding-top: 10px;
+    min-height:50px;
+    margin: auto;
+}
+.b{
+    border: 2px solid black;
+}
+
+p.footer{
+    padding: 15px;
+    vertical-align: middle;
+>>>>>>> 4c77ed4c06a6be4a5d0c6cde000aacf657798093
 }
