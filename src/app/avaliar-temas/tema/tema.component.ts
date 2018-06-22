@@ -1,5 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
-import {Tema} from './tema.model'
+import {Tema} from './tema.model';
 
 @Component({
   selector: 'eqv-tema',
@@ -8,8 +8,11 @@ import {Tema} from './tema.model'
 })
 
 export class TemaComponent implements OnInit {
-  @Input() tema: Tema
-  constructor() { }
+  @Input() tema: Tema;
+
+
+  constructor() {
+  }
 
   ngOnInit() {
   }

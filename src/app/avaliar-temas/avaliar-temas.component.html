@@ -1,10 +1,76 @@
-<div class="temasContent">
+<!--div class="temasContent">
 	<h3 class=" text-muted text-center subtitulo font-weight-light">Selecione os temas que você mais tem interesse nas propostas de um candidato.</h3>
 	<div class="row rowTemas">
-		<div *ngFor= "let tema of temas" class="col-xs-6 col-sm-4 col-md-4 col-lg-4 text-center">
-			<eqv-tema [tema]="tema"></eqv-tema>
+		<div *ngFor= "let tema of temas" class=" text-center">
+			<eqv-tema [tema]="tema" (click)="selecionarTema(tema.id)"  ></eqv-tema>
 		</div>
-	</div>
+  </div>
+</div-->
+
+<!--div class="btn-group btn-group-toggle">
+      <label class="btn-outline-success btn-xl text-uppercase" ngbButtonLabel>
+        <input type="checkbox" ngbButton [(ngModel)]="model.left"> Left (pre-checked)
+      </label>
+      <label class="btn-outline-success btn-xl text-uppercase" ngbButtonLabel>
+        <input type="checkbox" ngbButton [(ngModel)]="model.middle"> Middle
+      </label>
+      <label class="btn-outline-success btn-xl text-uppercase" ngbButtonLabel>
+        <input type="checkbox" ngbButton [(ngModel)]="model.right"> Right
+      </label>
+    </div-->
+    <!--hr>
+    <pre>{{model | json}}</pre-->
+
+      <div class="temasContent">
+        <h3 class=" text-muted text-center subtitulo font-weight-light">Selecione os temas que você mais tem interesse nas propostas de um candidato.</h3>
+        <div class="progress" style="height: 1px;">
+            <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+        <ul *ngIf="themes">
+          <div class="row rowTemas" >
+                  <div *ngFor= "let tema of themes" class="col-lg-4" >
+                      <div class="btn-group btn-group-toggle">
+                        <label class="btn btn-outline-success btn-xl text-uppercase border-white" ngbButtonLabel >
+                        <input type="checkbox" ngbButton [(ngModel)]="tema.status" >
+                         {{tema.name}}
+                        </label>
+                    </div>
+                </div>
+          </div>
+        </ul>
+    </div>
+
+
+
+
+<!--div class="temasContent">
+    <h3 class=" text-muted text-center subtitulo font-weight-light">Selecione os temas que você mais tem interesse nas propostas de um candidato.</h3>
+    <div class="progress" style="height: 1px;">
+        <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+      </div>
+    <div class="row rowTemas" >
+          	<div *ngFor= "let tema of temas" class="col-lg-4" >
+                <div class="btn-group btn-group-toggle">
+                  <label class="btn btn-outline-success btn-xl text-uppercase rounded-circle border-white" ngbButtonLabel >
+                    <img [src]="tema.imagePath" class="temaImg img-responsive "   alt="Educação">
+                    <input type="checkbox" ngbButton [(ngModel)]="tema.status" >
+                  </label>
+               </div>
+           </div>
+    </div>
 </div>
 
+
+
+
+
+
+<!--div class="text-center">
+  <a class="btn btn-outline-success btn-xl text-uppercase" (click)="clear();showConfig()" >Clic</a>
+</div>
+
+  <span *ngIf="config">
+    <p>Heroes API URL is "{{config.heroesUrl}}"</p>
+    <p>Textfile URL is "{{config.textfile}}"</p>
+  </span!-->
 
